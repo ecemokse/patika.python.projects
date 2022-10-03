@@ -1,0 +1,6 @@
+nestedlist =  [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+flatlist=[]
+for sublist in nestedlist:
+    for element in sublist:
+        flatlist.append(element)
+print(flatlist)
